@@ -18,6 +18,15 @@
   display: flex;
 }
 
+@keyframes shine {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.text-shine {
+  background-size: 200% 100%;
+  animation: shine 3s linear infinite;
+}
+
 :root {
   --background: oklch(0.98 0.002 250);
   --foreground: oklch(0.27 0.02 250);
