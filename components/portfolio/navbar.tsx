@@ -9,6 +9,7 @@ import { Moon, Sun, Menu, X, Download } from "lucide-react"
 const navLinks = [
   { key: "nav.home", href: "#hero" },
   { key: "nav.about", href: "#about" },
+  { key: "nav.services", href: "#services" },
   { key: "nav.projects", href: "#projects" },
   { key: "nav.education", href: "#education" },
   { key: "nav.contact", href: "#contact" },
@@ -48,7 +49,7 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
         <a href="#hero" className="text-lg font-bold tracking-tight text-foreground">
-          {"DERS"}
+          {"AR"}
         </a>
 
         {/* Desktop nav */}

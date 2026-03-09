@@ -4,6 +4,7 @@ import { I18nProvider } from "@/lib/i18n"
 import { Navbar } from "@/components/portfolio/navbar"
 import { HeroSection } from "@/components/portfolio/hero-section"
 import { AboutSection } from "@/components/portfolio/about-section"
+import { ServicesSection } from "@/components/portfolio/services-section"
 import { ProjectsSection } from "@/components/portfolio/projects-section"
 import { EducationSection } from "@/components/portfolio/education-section"
 import { ContactSection } from "@/components/portfolio/contact-section"
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <AboutSection />
+        <ServicesSection />
         <ProjectsSection />
         <EducationSection />
         <ContactSection />

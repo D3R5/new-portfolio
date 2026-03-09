@@ -15,6 +15,7 @@ const translations: Translations = {
   // Navbar
   "nav.home": { en: "Home", es: "Inicio" },
   "nav.about": { en: "About", es: "Sobre Mi" },
+  "nav.services": { en: "Services", es: "Servicios" },
   "nav.projects": { en: "Projects", es: "Proyectos" },
   "nav.education": { en: "Education", es: "Educacion" },
   "nav.contact": { en: "Contact", es: "Contacto" },
@@ -39,7 +40,40 @@ const translations: Translations = {
     es: "Soy desarrollador full-stack con más de 5 años de experiencia construyendo aplicaciones web y soluciones de ecommerce. Me especializo en JavaScript, React, Next.js y Node.js, además del desarrollo de tiendas Shopify utilizando Liquid y buenas prácticas de optimización. Me enfoco en crear interfaces intuitivas y sistemas escalables que mejoran la experiencia de compra y el rendimiento de las tiendas online. Cuando no estoy programando, me encontrarás explorando nuevas tecnologías, escuchando música, compartiendo con mis mascotas o disfrutando de salir en moto.",
   },
   "about.skills": { en: "Skills & Technologies", es: "Habilidades y Tecnologias" },
+// Services
+  "services.title": { en: "What I Can Help You With", es: "En Que Puedo Ayudarte" },
+  "services.subtitle": { en: "My services", es: "Mis servicios" },
 
+  "service.1.title": { en: "Shopify Store Development", es: "Desarrollo de Tiendas Shopify" },
+  "service.1.description": {
+    en: "Setup, customization and development of Shopify stores tailored for modern e-commerce businesses.",
+    es: "Configuracion, personalizacion y desarrollo de tiendas Shopify adaptadas para negocios de comercio electronico modernos.",
+  },
+  "service.2.title": { en: "Custom Shopify Themes", es: "Temas Personalizados para Shopify" },
+  "service.2.description": {
+    en: "Development and customization of high-performance Shopify themes focused on design, speed and conversions.",
+    es: "Desarrollo y personalizacion de temas Shopify de alto rendimiento enfocados en diseno, velocidad y conversiones.",
+  },
+  "service.3.title": { en: "E-commerce Optimization", es: "Optimizacion de E-commerce" },
+  "service.3.description": {
+    en: "Improving store performance, UX, and checkout flow to increase conversions and customer engagement.",
+    es: "Mejora del rendimiento de la tienda, UX y flujo de checkout para aumentar conversiones y engagement del cliente.",
+  },
+  "service.4.title": { en: "Full-Stack Web Applications", es: "Aplicaciones Web Full-Stack" },
+  "service.4.description": {
+    en: "Building scalable web applications using Next.js, Node.js and modern technologies.",
+    es: "Construccion de aplicaciones web escalables usando Next.js, Node.js y tecnologias modernas.",
+  },
+  "service.5.title": { en: "API Integrations", es: "Integraciones de APIs" },
+  "service.5.description": {
+    en: "Integration of third-party services such as payments, analytics, CRMs and marketing tools.",
+    es: "Integracion de servicios de terceros como pagos, analiticas, CRMs y herramientas de marketing.",
+  },
+  "service.6.title": { en: "Performance & SEO Optimization", es: "Optimizacion de Rendimiento y SEO" },
+  "service.6.description": {
+    en: "Optimizing websites for faster load times, better SEO and improved user experience.",
+    es: "Optimizacion de sitios web para tiempos de carga mas rapidos, mejor SEO y experiencia de usuario mejorada.",
+  },
   // Projects
   "projects.title": { en: "Projects", es: "Proyectos" },
   "projects.subtitle": { en: "Selected work", es: "Trabajo seleccionado" },

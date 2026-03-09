@@ -12,14 +12,11 @@
   10% { transform: translateX(0); }
 }
 
-
 .whatsapp-shake {
   animation: whatsapp-shake 5s infinite;
   transform-origin: center;
   display: flex;
 }
-
-
 
 :root {
   --background: oklch(0.98 0.002 250);
