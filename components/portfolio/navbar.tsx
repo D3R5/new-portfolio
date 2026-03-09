@@ -49,7 +49,7 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
         <a href="#hero" className="text-lg font-bold tracking-tight text-foreground">
-          {"AR"}
+          {"DERS"}
         </a>
 
         {/* Desktop nav */}
