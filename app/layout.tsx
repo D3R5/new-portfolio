@@ -17,22 +17,8 @@ export const metadata: Metadata = {
   title: 'Diego Rivera Spröhnle | Full-Stack Developer',
   description: 'Personal portfolio of Diego Rivera Spröhnle, a full-stack developer specializing in Shopify, React, Next.js, Node.js and Ecommerce. Building accessible, pixel-perfect digital experiences for the web.',
   generator: 'Next.js',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+ icons: {
+    icon: "/icon.svg",
   },
 }
 
