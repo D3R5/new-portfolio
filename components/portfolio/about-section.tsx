@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { useI18n } from "@/lib/i18n"
-import { Badge } from "@/components/ui/badge"
-import { useInView } from "@/hooks/use-in-view"
+import { useI18n } from "@/lib/i18n";
+import { Badge } from "@/components/ui/badge";
+import { useInView } from "@/hooks/use-in-view";
 
 const skills = [
   "React",
@@ -19,11 +19,11 @@ const skills = [
   "Git",
   "Figma",
   "REST APIs",
-]
+];
 
 export function AboutSection() {
-  const { t } = useI18n()
-  const { ref, isInView } = useInView({ threshold: 0.2 })
+  const { t } = useI18n();
+  const { ref, isInView } = useInView({ threshold: 0.2 });
 
   return (
     <section id="about" className="py-24 px-6" ref={ref}>
@@ -57,9 +57,11 @@ export function AboutSection() {
                 <Badge
                   key={skill}
                   variant="secondary"
-                  className={`rounded-full px-3 py-1 text-sm transition-all duration-500 ${
-                    isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-                  }`}
+                  className={`rounded-full px-3 py-1 text-sm cursor-default
+  transition-all duration-200 ease-out
+  hover:-translate-y-[2px] hhover:bg-primary/10 hover:text-primary
+
+  ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                   style={{ transitionDelay: `${i * 60}ms` }}
                 >
                   {skill}
@@ -70,5 +72,5 @@ export function AboutSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
