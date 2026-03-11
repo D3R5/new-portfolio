@@ -170,26 +170,27 @@ const translations: Translations = {
     en: "Full stack development focused on JavaScript, Node.js, and PostgreSQL databases.",
     es: "Desarrollo full stack enfocado en JavaScript, Node.js y bases de datos PostgreSQL.",
   },
-  "edu.3.degree": { en: "Computer Engineering", es: "Ingeniería Informática" },
-  "edu.3.school": {
-    en: "San Sebastian University",
-    es: "Universidad San Sebastian",
-  },
-  "edu.3.year": { en: "2025 - 2028", es: "2025 - 2028" },
-  "edu.3.description": {
-    en: "Ongoing studies in computer engineering with a focus on software development, programming, systems architecture, and databases.",
-    es: "Formación en desarrollo de software, programación, arquitectura de sistemas y bases de datos.",
-  },
-  "edu.4.degree": {
+  "edu.3.degree": {
     en: "Full Stack Java Developer",
     es: "Desarrollador Full Stack Java",
   },
-  "edu.4.school": { en: "Adalid Fudesco", es: "Adalid Fudesco" },
-  "edu.4.year": { en: "2024 - 2024", es: "2024 - 2024" },
-  "edu.4.description": {
+  "edu.3.school": { en: "Adalid Fudesco", es: "Adalid Fudesco" },
+  "edu.3.year": { en: "2024 - 2024", es: "2024 - 2024" },
+  "edu.3.description": {
     en: "Training in full stack development using Java and modern web technologies, including backend development, REST APIs, databases, and frontend integration.",
     es: "Formación en desarrollo full stack utilizando Java y tecnologías web modernas, incluyendo desarrollo backend, APIs REST, bases de datos e integración con frontend.",
   },
+  "edu.4.degree": { en: "Computer Engineering", es: "Ingeniería Informática" },
+  "edu.4.school": {
+    en: "San Sebastian University",
+    es: "Universidad San Sebastian",
+  },
+  "edu.4.year": { en: "2025 - 2028", es: "2025 - 2028" },
+  "edu.4.description": {
+    en: "Ongoing studies in computer engineering with a focus on software development, programming, systems architecture, and databases.",
+    es: "Formación en desarrollo de software, programación, arquitectura de sistemas y bases de datos.",
+  },
+
   "edu.5.degree": { en: "Vocational Training", es: "Formación Profesional" },
   "edu.5.school": {
     en: "Web development and programming – Udemy, Coderhouse, IBM",
