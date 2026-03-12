@@ -41,15 +41,22 @@ const projects = [
     titleKey: "project.5.title",
     descriptionKey: "project.5.description",
     image: "/images/rodotecnia.png",
-    tags: [ "JavaScript", "HTML/CSS"],
+    tags: ["JavaScript", "HTML/CSS"],
     link: "https://www.rodotecnia.cl/",
   },
-   {
+  {
     titleKey: "project.6.title",
     descriptionKey: "project.6.description",
     image: "/images/dinogloss.png",
-    tags: [ "Next.js", "Tailwind.CSS", "JavaScript", "HTML/CSS"],
+    tags: ["Next.js", "Tailwind.CSS", "JavaScript", "HTML/CSS"],
     link: "https://automotive-detailing-website.vercel.app/",
+  },
+  {
+    titleKey: "project.7.title",
+    descriptionKey: "project.7.description",
+    image: "/images/coffe.png",
+    tags: ["React-Vite", "JavaScript", "HTML/CSS"],
+    link: "https://coffee-shop-kappa-eosin.vercel.app/#home",
   },
 ];
 
@@ -78,11 +85,10 @@ export function ProjectsSection() {
             return (
               <article
                 key={project.titleKey}
-                className={`group rounded-xl overflow-hidden bg-card border border-border shadow-sm hover:shadow-lg transition-all duration-500 ${
-                  isInView
+                className={`group rounded-xl overflow-hidden bg-card border border-border shadow-sm hover:shadow-lg transition-all duration-500 ${isInView
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-8"
-                }`}
+                  }`}
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
                 <div className="relative h-48 overflow-hidden">
@@ -91,7 +97,7 @@ export function ProjectsSection() {
                     alt={t(project.titleKey)}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    /*className="object-contain p-2 transition-transform duration-500 group-hover:scale-105" codigo para que se vea la imagen completa cambiando el ratio*/
+                  /*className="object-contain p-2 transition-transform duration-500 group-hover:scale-105" codigo para que se vea la imagen completa cambiando el ratio*/
                   />
                 </div>
 
@@ -101,9 +107,8 @@ export function ProjectsSection() {
                   </h3>
 
                   <p
-                    className={`text-sm text-muted-foreground leading-relaxed ${
-                      isExpanded ? "" : "line-clamp-3"
-                    }`}
+                    className={`text-sm text-muted-foreground leading-relaxed ${isExpanded ? "" : "line-clamp-3"
+                      }`}
                   >
                     {t(project.descriptionKey)}
                   </p>

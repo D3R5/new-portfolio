@@ -157,6 +157,14 @@ const translations: Translations = {
   en: "Website developed for DinoGloss, a car wash and auto detailing service focused on premium vehicle care. The site highlights available services, pricing, and booking options with a clean, modern design optimized for mobile users and local customer acquisition.",
   es: "Sitio web desarrollado para DinoGloss, servicio especializado en lavado y detailing automotriz enfocado en el cuidado premium de vehículos. El sitio presenta los servicios, precios y opciones de contacto con un diseño limpio y moderno optimizado para dispositivos móviles y captación de clientes locales.",
 },
+"project.7.title": {
+  en: "Café Template - Website for Coffee Shops",
+  es: "Plantilla Web para Cafeterías",
+},
+"project.7.description": {
+  en: "Modern website concept designed for coffee shops and small cafés. The project focuses on a clean and inviting design to showcase menus, featured products, location information, and brand identity, optimized for mobile users and local customer engagement.",
+  es: "Concepto de sitio web moderno diseñado para cafeterías y pequeños cafés. El proyecto se enfoca en un diseño limpio y atractivo para mostrar menús, productos destacados, ubicación e identidad de marca, optimizado para dispositivos móviles y la interacción con clientes locales.",
+},
   // Education
   "education.title": { en: "Education", es: "Educacion" },
   "education.subtitle": {
