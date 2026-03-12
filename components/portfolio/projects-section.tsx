@@ -37,6 +37,13 @@ const projects = [
     tags: ["Shopify", "Liquid", "JavaScript", "HTML/CSS", "Ecommerce"],
     link: "https://titansportswearstore.myshopify.com/",
   },
+  {
+    titleKey: "project.5.title",
+    descriptionKey: "project.5.description",
+    image: "/images/rodotecnia.png",
+    tags: [ "JavaScript", "HTML/CSS"],
+    link: "https://www.rodotecnia.cl/",
+  },
 ];
 
 export function ProjectsSection() {

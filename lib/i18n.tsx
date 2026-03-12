@@ -141,7 +141,14 @@ const translations: Translations = {
     en: "Comprehensive development and management of TitanSportsWear's e-commerce platform on Shopify, specializing in exclusive footwear and apparel. Catalog management, inventory control, SEO optimization, and continuous improvements aimed at conversion.",
     es: "Desarrollo y gestión integral del ecommerce de TitanSportsWear en Shopify, especializado en calzado y vestuario exclusivo. Administración de catálogo, control de inventario, optimización SEO y mejoras continuas orientadas a conversión.",
   },
-
+"project.5.title": {
+  en: "Rodotecnia - Industrial Design Website",
+  es: "Rodotecnia - Sitio Web de Diseños Industriales",
+},
+"project.5.description": {
+  en: "Corporate website developed for Rodotecnia, a company specialized in industrial design and engineering solutions. The project focused on creating a modern and professional digital presence, highlighting services, projects, and technical capabilities with a responsive and optimized interface.",
+  es: "Sitio web corporativo desarrollado para Rodotecnia, empresa especializada en diseño industrial y soluciones de ingeniería. El proyecto se enfocó en crear una presencia digital moderna y profesional, destacando servicios, proyectos y capacidades técnicas con una interfaz responsiva y optimizada.",
+},
   // Education
   "education.title": { en: "Education", es: "Educacion" },
   "education.subtitle": {
