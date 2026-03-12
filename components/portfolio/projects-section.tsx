@@ -58,6 +58,13 @@ const projects = [
     tags: ["React-Vite", "JavaScript", "HTML/CSS"],
     link: "https://coffee-shop-kappa-eosin.vercel.app/#home",
   },
+  {
+    titleKey: "project.8.title",
+    descriptionKey: "project.8.description",
+    image: "/images/mernbooking.png",
+    tags: ["React-Vite", "JavaScript", "HTML/CSS"],
+    link: "https://mern-booking-app-krrt.onrender.com/",
+  },
 ];
 
 export function ProjectsSection() {

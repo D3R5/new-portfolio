@@ -165,6 +165,15 @@ const translations: Translations = {
   en: "Modern website concept designed for coffee shops and small cafés. The project focuses on a clean and inviting design to showcase menus, featured products, location information, and brand identity, optimized for mobile users and local customer engagement.",
   es: "Concepto de sitio web moderno diseñado para cafeterías y pequeños cafés. El proyecto se enfoca en un diseño limpio y atractivo para mostrar menús, productos destacados, ubicación e identidad de marca, optimizado para dispositivos móviles y la interacción con clientes locales.",
 },
+"project.8.title": {
+  en: "MERN Booking - Reservation Platform",
+  es: "MERN Booking - Plataforma de Reservas",
+},
+"project.8.description": {
+  en: "Full-stack booking platform built with the MERN stack (MongoDB, Express, React, Node.js). The application allows users to browse services, manage reservations, and handle booking availability through a modern and responsive interface with dynamic data management.",
+  es: "Plataforma de reservas full stack desarrollada con el stack MERN (MongoDB, Express, React, Node.js). La aplicación permite a los usuarios explorar servicios, gestionar reservas y administrar disponibilidad mediante una interfaz moderna y responsiva con manejo dinámico de datos.",
+},
+
   // Education
   "education.title": { en: "Education", es: "Educacion" },
   "education.subtitle": {
