@@ -44,6 +44,13 @@ const projects = [
     tags: [ "JavaScript", "HTML/CSS"],
     link: "https://www.rodotecnia.cl/",
   },
+   {
+    titleKey: "project.6.title",
+    descriptionKey: "project.6.description",
+    image: "/images/dinogloss.png",
+    tags: [ "Next.js", "Tailwind.CSS", "JavaScript", "HTML/CSS"],
+    link: "https://automotive-detailing-website.vercel.app/",
+  },
 ];
 
 export function ProjectsSection() {
