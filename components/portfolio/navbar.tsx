@@ -37,7 +37,7 @@ export function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
-  const cvHref = locale === "en" ? "/cv-en.pdf" : "/cv-es.pdf";
+  const cvHref = locale === "en" ? "/Diego_Rivera_Sprohnle_english_cv.pdf" : "/Diego_Rivera_Sprohnle_spanish_cv.pdf";
 
   return (
     <nav
