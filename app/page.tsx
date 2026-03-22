@@ -10,7 +10,6 @@ import { EducationSection } from "@/components/portfolio/education-section";
 import { ContactSection } from "@/components/portfolio/contact-section";
 import { Footer } from "@/components/portfolio/footer";
 import { WhatsAppButton } from "@/components/portfolio/whatsapp-button";
-import { Analytics } from "@vercel/analytics/next";
 
 export default function Home() {
   return (
@@ -30,7 +29,6 @@ export default function Home() {
         phoneNumber="56920995401"
         message="Hello! I found your portfolio and would like to connect."
       />
-      <Analytics />
     </I18nProvider>
   );
 }
