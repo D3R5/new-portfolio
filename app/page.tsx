@@ -10,6 +10,7 @@ import { EducationSection } from "@/components/portfolio/education-section"
 import { ContactSection } from "@/components/portfolio/contact-section"
 import { Footer } from "@/components/portfolio/footer"
 import { WhatsAppButton } from "@/components/portfolio/whatsapp-button"
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
