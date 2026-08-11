@@ -72,6 +72,13 @@ const projects = [
     tags: ["Shopify", "Liquid", "JavaScript", "HTML/CSS", "Ecommerce"],
     link: "https://revoltoutlet.cl/",
   },
+   {
+    titleKey: "project.10.title",
+    descriptionKey: "project.10.description",
+    image: "/images/coomingsoon.jpg",
+    tags: ["Next.js", "Tailwind.CSS", "JavaScript", "HTML/CSS"],
+    link: "#",
+  },
 ];
 
 export function ProjectsSection() {

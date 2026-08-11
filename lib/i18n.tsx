@@ -181,6 +181,14 @@ es: "E-Commerce Revolt Outlet",
 en: "Shopify-based e-commerce platform developed for Revolt Outlet, focused on offering products at 50% off across multiple categories. Includes streamlined catalog management, discounted pricing strategy, inventory synchronization, SEO optimization, and payment integration. The shopping experience is designed to highlight urgency, maximize conversions, and promote high-value deals.",
 es: "Plataforma de ecommerce en Shopify desarrollada para Revolt Outlet, enfocada en ofrecer productos con un 50% de descuento en múltiples categorías. Incluye gestión optimizada de catálogo, estrategia de precios con descuentos, sincronización de inventario, optimización SEO e integración de medios de pago. La experiencia de compra está diseñada para generar urgencia, maximizar la conversión y destacar ofertas de alto valor.",
 },
+"project.10.title": {
+en: "Furniture E-Commerce (Coming Soon)",
+es: "E-Commerce de Muebles (Próximamente)",
+},
+"project.10.description": {
+en: "Modern e-commerce platform built with Next.js, currently under development, focused on furniture and home decor. Includes a scalable frontend architecture, dynamic product catalog, optimized performance with SSR/ISR, SEO-friendly structure, and integration with backend services for inventory and payments. The user experience is designed to highlight product visuals, usability, and conversion, with an upcoming launch.",
+es: "Plataforma de ecommerce moderna desarrollada con Next.js, actualmente en desarrollo, enfocada en muebles y decoración para el hogar. Incluye una arquitectura frontend escalable, catálogo de productos dinámico, rendimiento optimizado con SSR/ISR, estructura amigable para SEO e integración con servicios backend para inventario y pagos. La experiencia de usuario está diseñada para destacar los productos, la usabilidad y la conversión, con lanzamiento próximo.",
+},
 
 
   // Education
