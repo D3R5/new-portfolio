@@ -173,6 +173,15 @@ const translations: Translations = {
   en: "Full-stack booking platform built with the MERN stack (MongoDB, Express, React, Node.js). The application allows users to browse services, manage reservations, and handle booking availability through a modern and responsive interface with dynamic data management.",
   es: "Plataforma de reservas full stack desarrollada con el stack MERN (MongoDB, Express, React, Node.js). La aplicación permite a los usuarios explorar servicios, gestionar reservas y administrar disponibilidad mediante una interfaz moderna y responsiva con manejo dinámico de datos.",
 },
+"project.9.title": {
+en: "E-Commerce Revolt Outlet",
+es: "E-Commerce Revolt Outlet",
+},
+"project.9.description": {
+en: "Shopify-based e-commerce platform developed for Revolt Outlet, focused on offering products at 50% off across multiple categories. Includes streamlined catalog management, discounted pricing strategy, inventory synchronization, SEO optimization, and payment integration. The shopping experience is designed to highlight urgency, maximize conversions, and promote high-value deals.",
+es: "Plataforma de ecommerce en Shopify desarrollada para Revolt Outlet, enfocada en ofrecer productos con un 50% de descuento en múltiples categorías. Incluye gestión optimizada de catálogo, estrategia de precios con descuentos, sincronización de inventario, optimización SEO e integración de medios de pago. La experiencia de compra está diseñada para generar urgencia, maximizar la conversión y destacar ofertas de alto valor.",
+},
+
 
   // Education
   "education.title": { en: "Education", es: "Educacion" },
