@@ -65,6 +65,13 @@ const projects = [
     tags: ["React-Vite", "JavaScript", "HTML/CSS"],
     link: "https://mern-booking-app-krrt.onrender.com/",
   },
+   {
+    titleKey: "project.9.title",
+    descriptionKey: "project.9.description",
+    image: "/images/revoltoutlet.png",
+    tags: ["Shopify", "Liquid", "JavaScript", "HTML/CSS", "Ecommerce"],
+    link: "https://revoltoutlet.cl/",
+  },
 ];
 
 export function ProjectsSection() {
